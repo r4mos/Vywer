@@ -1,6 +1,20 @@
 # Vywer
 Basic map application using Google API
 
+# Screenshots
+![3D](https://raw.githubusercontent.com/r4mos/Vywer/master/screenshots/1-madrid-3d.png)
+
+![Moving](https://raw.githubusercontent.com/r4mos/Vywer/master/screenshots/2-moving.png)
+
+![Options](https://raw.githubusercontent.com/r4mos/Vywer/master/screenshots/3-options.png)
+
+![Searching](https://raw.githubusercontent.com/r4mos/Vywer/master/screenshots/4-searching.png)
+
+![Search selected](https://raw.githubusercontent.com/r4mos/Vywer/master/screenshots/5-search-selected.png)
+
+![Routing](https://raw.githubusercontent.com/r4mos/Vywer/master/screenshots/6-routng.png)
+
+
 # Usage
 Put your Google API key in AndroidManifest.xml and generate your apk using Android Studio
 
