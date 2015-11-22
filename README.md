@@ -6,6 +6,7 @@ Put your Google API key in AndroidManifest.xml and generate your apk using Andro
 
 # Requirements
 Sdk version 21 (Android 5.0 Lollipop) with com.android.support:appcompat-v7:21.0.3, com.google.android.gms:play-services-maps:6.5.87 and com.google.maps.android:android-maps-utils:0.3.4 to compile
+
 Sdk version 11 (Android 3.0 Honeycomb) to run
 
 # License
