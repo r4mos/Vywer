@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Vywer</string>
+    <string name="app_language">es</string> //Se usa en las peticiones de las instrucciones
+                                            //Soportados: https://developers.google.com/+/web/api/supported-languages
+
+    //Salidas de rotonda. Se cogen del idioma de la petición y se convierten a número. Hay que ver que devulve la petición para traducir
+    <string-array name="exits_array">
+        <item>primera</item>
+        <item>segunda</item>
+        <item>tercera</item>
+        <item>cuarta</item>
+        <item>quinta</item>
+        <item>sexta</item>
+        <item>septima</item>
+        <item>octava</item>
+    </string-array>
+
+    <string name="title_section_explore">Explorar mapa</string>
+    <string name="title_section_go">Seleccionar destino</string>
+    <string name="title_section_going">Navegación</string>
+    <string name="title_section_settings">Opciones</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="alert_yes">Si</string>
+    <string name="alert_no">No</string>
+    <string name="alert_exit_on_nav">¿Desea salir sin acabar la navegación?</string>
+    <string name="alert_no_internet">No tiene conexión a Internet</string>
+    <string name="alert_no_gps">GPS deshabilitado</string>
+    <string name="alert_error_loading_route">Ocurrió un error al cargar la ruta</string>
+    <string name="alert_error_calculating_route">No se han encontrado rutas hasta el destino con las opciones seleccionadas</string>
+    <string name="alert_search_empy">No se ha encontrado nada</string>
+    <string name="alert_no_destination">No ha seleccionado ningún destino</string>
+    <string name="alert_no_sound">No se pueden reproducir sonidos</string>
+
+    <string name="sound_during">durante</string>
+    <string name="sound_to">A</string>
+    <string name="sound_meters">metros</string>
+
+    <string name="settings_nav">Navegación</string>
+    <string name="settings_alerts_sound">Avisos sonoros</string>
+    <string name="settings_alerts_sound_summary">Activa o desactiva los avisos sonoros</string>
+    <string name="settings_display_orientation">Rotar mapa</string>
+    <string name="settings_display_orientation_summary">Activa o desactiva la rotación automática del mapa mientras se navega</string>
+
+    <string name="settings_route">Ruta</string>
+    <string name="settings_transport">Tipo de transporte</string>
+    <string-array name="settings_transport_entries">
+        <item>Coche o moto</item>
+        <item>Peatón</item>
+        <item>Bicicleta</item>
+    </string-array>1
+    <string-array name="settings_transport_values">
+        <item>driving</item>    //No tocar. Es constante
+        <item>walking</item>    //No tocar. Es constante
+        <item>bicycling</item>  //No tocar. Es constante
+    </string-array>
+    <string name="settings_avoid_tolls">Evitar peajes</string>
+    <string name="settings_avoid_tolls_summary">Evitar los peajes cuando se calculen rutas</string>
+    <string name="settings_avoid_highways">Evitar autovías</string>
+    <string name="settings_avoid_highways_summary">Evitar las autovías cuando se calculen rutas</string>
+
+    <string name="instructions_destination">Ha llegado a su destino</string>
+    <string name="instructions_recalculate">Recalculando el recorrido</string>
+    <string name="instructions_straight">Continue recto</string>
+
+    <string name="button_search">Buscar</string>
+</resources>
